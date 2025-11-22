@@ -1,0 +1,26 @@
+{
+  "entity.jungle_zombie.ambient": {
+	"sounds": [ "wich:mob/jungle_zombie/idle1", "wich:mob/jungle_zombie/idle2", "wich:mob/jungle_zombie/idle3" ],
+	"subtitle": "subtitles.entity.jungle_zombie.ambient"
+  },
+  "entity.jungle_zombie.death": {
+	"sounds": [  "wich:mob/jungle_zombie/death1", "wich:mob/jungle_zombie/death2", "wich:mob/jungle_zombie/death3" ],
+	"subtitle": "subtitles.entity.jungle_zombie.death"
+  },
+  "entity.jungle_zombie.hurt": {
+	"sounds": [ "wich:mob/jungle_zombie/hurt1", "wich:mob/jungle_zombie/hurt2", "wich:mob/jungle_zombie/hurt3", "wich:mob/jungle_zombie/hurt4" ],
+	"subtitle": "subtitles.entity.jungle_zombie.hurt"
+  },
+  "entity.jungle_zombie.step": {
+	"sounds": [ "wich:mob/jungle_zombie/step1", "wich:mob/jungle_zombie/step2", "wich:mob/jungle_zombie/step3", "wich:mob/jungle_zombie/step4", "wich:mob/jungle_zombie/step5" ],
+	"subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.jungle_zombie.shear": {
+	"sounds": [ "mob/sheep/shear" ],
+	"subtitle": "subtitles.item.shears.shear"
+  },
+  "entity.parrot.imitate.jungle_zombie": {
+	"sounds": [ { "name": "wich:entity.jungle_zombie.ambient", "pitch": 1.8, "type": "event", "volume": 0.6 } ],
+	"subtitle": "subtitles.entity.parrot.imitate.jungle_zombie"
+  }
+}

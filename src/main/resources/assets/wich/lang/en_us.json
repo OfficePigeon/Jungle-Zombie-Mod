@@ -1,0 +1,9 @@
+{
+  "entity.wich.jungle_zombie": "Jungle Zombie",
+  "item.wich.jungle_zombie_spawn_egg": "Jungle Zombie Spawn Egg",
+  "subtitles.entity.jungle_zombie.ambient": "Jungle Zombie groans",
+  "subtitles.entity.jungle_zombie.death": "Jungle Zombie dies",
+  "subtitles.entity.jungle_zombie.hurt": "Jungle Zombie hurts",
+  "subtitles.entity.jungle_zombie.step": "Jungle Zombie steps",
+  "subtitles.entity.parrot.imitate.jungle_zombie": "Parrot groans"
+}
