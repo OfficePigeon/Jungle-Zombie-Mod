@@ -1,0 +1,8 @@
+{
+  "entity.wich.jungle_zombie": "Undead Jungle Sailor",
+  "item.wich.jungle_zombie_spawn_egg": "Undead Jungle Sailor Cackle Fruit",
+  "subtitles.entity.jungle_zombie.ambient": "Undead Jungle Sailor groans",
+  "subtitles.entity.jungle_zombie.death": "Undead Jungle Sailor perishes",
+  "subtitles.entity.jungle_zombie.hurt": "Undead Jungle Sailor gets hurt",
+  "subtitles.entity.parrot.imitate.jungle_zombie": "Yer' best matey be groanin'"
+}
