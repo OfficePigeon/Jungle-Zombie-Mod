@@ -44,9 +44,10 @@ public class JungleZombieEntity extends ZombieEntity implements Shearable {
 	}
 	@Override
 	public void sheared(SoundCategory shearedSoundCategory) {
-		this.getEntityWorld().playSoundFromEntity(null, this, JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_SHEAR, shearedSoundCategory, 1, 1);
+		World world = this.getEntityWorld();
+		world.playSoundFromEntity(null, this, JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_SHEAR, shearedSoundCategory, 1, 1);
 		this.convertTo(EntityType.ZOMBIE, true);
-		if (this.getWorld() instanceof ServerWorld serverWorld) {
+		if (world instanceof ServerWorld serverWorld) {
 			LootTable lootTable = serverWorld.getServer().getReloadableRegistries().getLootTable(JungleZombiesMod.JUNGLE_ZOMBIE_SHEARING);
 			LootContextParameterSet lootContextParameterSet = new LootContextParameterSet.Builder(serverWorld)
 					.add(LootContextParameters.ORIGIN, this.getPos())
