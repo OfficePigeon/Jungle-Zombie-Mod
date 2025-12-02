@@ -20,5 +20,5 @@ public class JungleZombieEntityRenderer extends ZombieBaseEntityRenderer<JungleZ
 		this.addFeature(new JungleZombieOverlayFeatureRenderer(this, context.getEntityModels()));
 	}
 	@Override public ZombieEntityRenderState createRenderState() { return new ZombieEntityRenderState(); }
-	@Override public Identifier getTexture(ZombieEntityRenderState zombieEntityRenderState) { return TEXTURE; }
+	@Override public Identifier getTexture(ZombieEntityRenderState state) { return TEXTURE; }
 }
