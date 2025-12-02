@@ -1,6 +1,6 @@
 package fun.wich;
 
-import fun.wich.mixin.LootTablesMixin;
+import fun.wich.mixin.JungleZombies_LootTablesMixin;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -59,7 +59,7 @@ public class JungleZombiesMod implements ModInitializer {
 		Registry.register(Registries.ITEM, key, item);
 		return item;
 	}
-	public static final RegistryKey<LootTable> JUNGLE_ZOMBIE_SHEARING = LootTablesMixin.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, Identifier.of(MOD_ID, "shearing/jungle_zombie")));
+	public static final RegistryKey<LootTable> JUNGLE_ZOMBIE_SHEARING = JungleZombies_LootTablesMixin.registerLootTable(RegistryKey.of(RegistryKeys.LOOT_TABLE, Identifier.of(MOD_ID, "shearing/jungle_zombie")));
 	@Override
 	public void onInitialize() {
 		//Attributes

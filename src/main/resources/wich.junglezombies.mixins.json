@@ -3,8 +3,8 @@
   "package": "fun.wich.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-	"LootTablesMixin",
-	"ParrotEntityMixin"
+	"JungleZombies_LootTablesMixin",
+	"JungleZombies_ParrotEntityMixin"
   ],
   "injectors": {
 	"defaultRequire": 1
