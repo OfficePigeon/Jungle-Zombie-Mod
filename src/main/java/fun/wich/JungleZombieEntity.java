@@ -28,6 +28,7 @@ public class JungleZombieEntity extends ZombieEntity implements Shearable {
 		}
 		return bl;
 	}
+	@Override
 	public ActionResult interactMob(PlayerEntity player, Hand hand) {
 		ItemStack itemStack = player.getStackInHand(hand);
 		if (itemStack.isOf(Items.SHEARS) && this.isShearable()) {
@@ -40,6 +41,7 @@ public class JungleZombieEntity extends ZombieEntity implements Shearable {
 		}
 		else return super.interactMob(player, hand);
 	}
+	@Override
 	public void sheared(ServerWorld world, SoundCategory shearedSoundCategory, ItemStack shears) {
 		world.playSoundFromEntity(null, this, JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_SHEAR, shearedSoundCategory, 1, 1);
 		this.convertTo(EntityType.ZOMBIE, EntityConversionContext.create(this, false, false), (zombie) -> {
@@ -50,10 +52,10 @@ public class JungleZombieEntity extends ZombieEntity implements Shearable {
 			});
 		});
 	}
-	public boolean isShearable() { return this.isAlive() && !this.isBaby(); }
+	@Override public boolean isShearable() { return this.isAlive() && !this.isBaby(); }
 	@Override protected SoundEvent getAmbientSound() { return JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_AMBIENT; }
 	@Override protected SoundEvent getHurtSound(DamageSource source) { return JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_HURT; }
 	@Override protected SoundEvent getDeathSound() { return JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_DEATH; }
 	@Override protected SoundEvent getStepSound() { return JungleZombiesMod.ENTITY_JUNGLE_ZOMBIE_STEP; }
-	protected boolean canConvertInWater() { return false; }
+	@Override protected boolean canConvertInWater() { return false; }
 }
