@@ -1,0 +1,9 @@
+{
+  "entity.wich.jungle_zombie": "Джунглень",
+  "item.wich.jungle_zombie_spawn_egg": "Яйце виклику джунгленя",
+  "subtitles.entity.jungle_zombie.ambient": "Джунглень стогне",
+  "subtitles.entity.jungle_zombie.death": "Джунглень гине",
+  "subtitles.entity.jungle_zombie.hurt": "Джунгленя поранено",
+  "subtitles.entity.parrot.imitate.jungle_zombie": "Папуга стогне",
+  "modmenu.descriptionTranslation.wich": "Додає джунгленя з Minecraft Dungeons."
+}
