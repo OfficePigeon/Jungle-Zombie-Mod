@@ -1,0 +1,9 @@
+{
+    "entity.wich.jungle_zombie": "Тропический зомби",
+    "item.wich.jungle_zombie_spawn_egg": "Яйцо призыва тропического зомби",
+    "subtitles.entity.jungle_zombie.ambient": "Тропический зомби стонет",
+    "subtitles.entity.jungle_zombie.death": "Тропический зомби погибает",
+    "subtitles.entity.jungle_zombie.hurt": "Тропический зомби ранен",
+    "subtitles.entity.parrot.imitate.jungle_zombie": "Попугай стонет как тропический зомби",
+    "modmenu.descriptionTranslation.wich": "Добавляет тропического зомби из Minecraft Earth"
+  }
